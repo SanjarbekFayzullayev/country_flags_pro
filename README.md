@@ -1,18 +1,12 @@
 
 
-## Authors
+## Author
 
 - [GitHub (Sanjarbek Fayzullayev)](https://github.com/SanjarbekFayzullayev/)
 - [LinkedIn (Sanjarbek Fayzullayev)](https://www.linkedin.com/in/sanjarbek-fayzullayev-🇵🇸-948a13247/)
 - [Instagram (Sanjarbek Fayzullayev)](https://www.instagram.com/fayzullayevs.uz/)
 
-## Contributing
 
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 # country_flags_pro
 
