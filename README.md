@@ -62,8 +62,7 @@ class MyHomePage extends StatelessWidget {
 }
  ```
 
-![Logo](https://images.elearncollege.com/wp-content/uploads/2023/10/product-image-22.jpg)![Logo](https://images.elearncollege.com/wp-content/uploads/2023/10/product-image-22.jpg)
-
+![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsTB1a67wk23aA1jE1ZfWMUYYGVcypc-ItooVaTQ1XS6btKBHsjIIB4psRd-W-QGpz6FWb8ARbGbqtdSfK3mwlraPHbTC7x2zVpwstRWDJKtuALLxSXepZNQuKRP_WGN27ie08P9txAxI/s1600/world_flags_globe_1.gif)
 
 
 ## Welcome to Uzbekistan
