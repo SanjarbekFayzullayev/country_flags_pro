@@ -1,39 +1,53 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+![Logo](https://raw.githubusercontent.com/SanjarbekFayzullayev/SanjarbekFayzullayev/main/user-photoaidcom-cropped-removebg-preview.png)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+
+
+## Authors
+
+- [GitHub](https://github.com/SanjarbekFayzullayev/)
+- [linkedin](www.linkedin.com/in/sanjarbek-fayzullayev-🇵🇸-948a13247)
+- [instagram](https://www.instagram.com/fayzullayevs.uz/)
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+# country_flags_pro
+
+`country_flags_pro` is a Flutter package that allows you to display country flags in SVG format. With this package, you can easily fetch and display flags based on country codes.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Display flags based on country codes.
+- Supports flags in SVG format.
+- Easy integration and flexible sizing options.
 
-## Getting started
+## Getting Started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Prerequisites
 
-## Usage
+To use this package, first ensure that your Flutter environment is correctly set up. Then, add the following dependencies to your `pubspec.yaml` file:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.0
+  country_flags_pro: 
 ```
 
-## Additional information
+![Logo](https://images.elearncollege.com/wp-content/uploads/2023/10/product-image-22.jpg)![Logo](https://images.elearncollege.com/wp-content/uploads/2023/10/product-image-22.jpg)
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+
+
+## Welcome to Uzbekistan
+
+
+![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/1280px-Flag_of_Uzbekistan.svg.png)
+
+
