@@ -7,7 +7,7 @@
 ## Authors
 
 - [GitHub](https://github.com/SanjarbekFayzullayev/)
-- [linkedin](www.linkedin.com/in/sanjarbek-fayzullayev-🇵🇸-948a13247)
+- [linkedin](www.linkedin.com/in/sanjarbek-fayzullayev-🇵🇸-948a13247/)
 - [instagram](https://www.instagram.com/fayzullayevs.uz/)
 ## Contributing
 
