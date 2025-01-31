@@ -1,1 +1,9 @@
-TODO: Add your license here.
+
+### Izohlar:
+
+- **Davlat kodi**: Kiritilgan davlat kodi to‘g‘ri bo‘lishi kerak. Misol uchun, `"us"`, `"gb"`, `"de"` kabi qisqa kiritilgan davlat kodlari.
+- **Assetlar**: `assets/svg/` papkasida SVG bayroqlari bo‘lishi kerak. Siz SVG bayroqlarni shu papkada saqlashingiz va package'ni ishlatgan foydalanuvchilar uchun tayyor qilishingiz kerak.
+- **Testlar**: Unit testlarni qanday ishlatish va sinovdan o‘tkazish haqida qisqacha ma'lumot berilgan.
+- **GitHub linki**: Agar siz package'ni GitHub orqali tarqatmoqchi bo‘lsangiz, `git://github.com/SanjarbekFayzullayev/country_flags_pro.git` URL'ni qo‘ying.
+
+Bu `README.md` fayli package'ni taqdim etishda foydalanuvchilarga qanday ishlatishni tushuntiradi va o‘rnatish, foydalanish va qo‘llab-quvvatlash bo‘yicha zarur ma'lumotlarni beradi.
