@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+/// A utility class to display country flags in SVG format.
 class CountryFlagsPro {
-  // To'g'ri davlat kodlari ro'yxati
+  /// A list of valid country codes that have corresponding flag assets.
   static const List<String> _validCountryCodes = [
     'af',
     'ag',
@@ -261,19 +262,24 @@ class CountryFlagsPro {
     'ae'
   ];
 
-  // Bayroqni SVG formatda olish va o'lchamlarni parametr sifatida olish
+  /// Returns an SVG flag widget based on the given [countryCode].
+  ///
+  /// - [countryCode]: The country code in lowercase (e.g., 'us' for the USA).
+  /// - [width]: The width of the flag (default is 50.0).
+  /// - [height]: The height of the flag (default is 50.0).
+  ///
+  /// If the country code is invalid, an error widget is displayed.
   static Widget getFlag(String countryCode,
       {double width = 50.0, double height = 50.0}) {
-    // Davlat kodi ro'yxatini tekshirish
+    // Validate the country code
     if (!_validCountryCodes.contains(countryCode.toLowerCase())) {
       return _errorWidget('Error code : $countryCode');
     }
 
-    // Har bir davlat kodi bo'yicha SVG faylni olish
+    // Construct the asset path for the flag SVG
     String flagAsset = 'packages/country_flags_pro/assets/svg/$countryCode.svg';
 
-
-    // Bayroqni ko'rsatish
+    /// Helper widget to display an error message.
     return SvgPicture.asset(
       flagAsset,
       width: width,

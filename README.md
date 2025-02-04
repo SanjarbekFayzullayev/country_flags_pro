@@ -6,44 +6,32 @@
 - [LinkedIn (Sanjarbek Fayzullayev)](https://www.linkedin.com/in/sanjarbek-fayzullayev-🇵🇸-948a13247/)
 - [Instagram (Sanjarbek Fayzullayev)](https://www.instagram.com/fayzullayevs.uz/)
 
-
+---
 
 # country_flags_pro
 
-`country_flags_pro` is a Flutter package that allows you to display country flags in SVG format. With this package, you can easily fetch and display flags based on country codes.
+`country_flags_pro` is a Flutter package that allows you to display country flags in **SVG format**. This package lets you easily fetch and display flags based on country codes.
 
-## Getting Started
-🚀 country_flags_pro works completely offline! All flags are stored in SVG format, so it functions without an internet connection.
+## 🚀 Why Use country_flags_pro?
+✔ **Works Offline** – No internet required! 🌍  
+✔ **Fast & Lightweight** – Flags load instantly. ⚡  
+✔ **Optimized SVG** – High-quality flag images. 🏴
 
-❌🌐 No Internet Required
+---
 
-✅ Benefits:
+## Installation
 
-- ❌🌍 No internet needed – all flags are stored locally.
-- ⚡ Fast loading – no API calls, flags load instantly.
-- 📦 Lightweight – all SVG flags are compressed and optimized.
-
-## Features
-
-- Display flags based on country codes.
-- Supports flags in SVG format.
-- Easy integration and flexible sizing options.
-
-
-
-### Prerequisites
-
-To use this package, first ensure that your Flutter environment is correctly set up. Then, add the following dependencies to your `pubspec.yaml` file:
+To use this package, add the following dependencies to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  country_flags_pro: ^0.0.6 
+  country_flags_pro: last_version 
 ```
 
 
-### Prerequisites
+### 📌 Usage Example
 
 Code example:
 
@@ -60,7 +48,7 @@ class MyHomePage extends StatelessWidget {
         title: Text('Country Flags Example'),
       ),
       body: Center(
-        child: CountryFlag.getFlag(
+        child: CountryFlagsPro.getFlag(
           'uz', // Country code
           width: 100.0,  // Flag width
           height: 60.0,  // Flag height
@@ -70,13 +58,27 @@ class MyHomePage extends StatelessWidget {
   }
 }
 
+
  ```
 
+## 🌍 Platform Support
+
+| Platform  | Supported |
+|-----------|----------|
+| ✅ Android  | ✅ Yes |
+| ✅ iOS  | ✅ Yes |
+| ✅ Web  | ✅ Yes |
+| ✅ Windows  | ✅ Yes |
+| ✅ macOS  | ✅ Yes |
+| ✅ Linux  | ✅ Yes |
 
 
+## 🌍 Available Flags
+This package supports all official country flags in SVG format. Example:
 
 ![Logo](https://cdn.dribbble.com/userupload/6022766/file/original-07aa361d76411060f0c3535ded273fb5.png)
 
+## World Flags
 
 ![Logo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsTB1a67wk23aA1jE1ZfWMUYYGVcypc-ItooVaTQ1XS6btKBHsjIIB4psRd-W-QGpz6FWb8ARbGbqtdSfK3mwlraPHbTC7x2zVpwstRWDJKtuALLxSXepZNQuKRP_WGN27ie08P9txAxI/s1600/world_flags_globe_1.gif)
 ## Country code and Full name
