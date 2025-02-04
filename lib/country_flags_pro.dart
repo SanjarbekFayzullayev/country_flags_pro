@@ -32,7 +32,8 @@ class CountryFlagsPro {
     }
 
     // Har bir davlat kodi bo'yicha SVG faylni olish
-    String flagAsset = 'assets/svg/$countryCode.svg';
+   String flagAsset = 'packages/country_flags_pro/assets/svg/$countryCode.svg';
+
 
     // Bayroqni ko'rsatish
     return SvgPicture.asset(

@@ -1,3 +1,4 @@
-## 0.0.1
+##  0.0.6
 
-* TODO: Describe initial release.
+* Bug fixes
+* Optimized SVG loading
