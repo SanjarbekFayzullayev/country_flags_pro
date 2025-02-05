@@ -265,8 +265,7 @@ class CountryFlagsPro {
     'ae',
   ];
 
-  static const Map<String,String> countryCodeAndName={
-
+  static const Map<String, String> countryCodeAndName = {
     'af': 'Afghanistan',
     'ag': 'Antigua and Barbuda',
     'ai': 'Anguilla',
@@ -523,6 +522,7 @@ class CountryFlagsPro {
     'ad': 'Andorra',
     'ae': 'United Arab Emirates'
   };
+
   /// Returns an SVG flag widget based on the given [countryCode].
   ///
   /// - [countryCode]: The country code in lowercase (e.g., 'us' for the USA).
@@ -535,8 +535,8 @@ class CountryFlagsPro {
       double height = 50.0,
       BoxFit fit = BoxFit.none,
       BorderRadius? borderRadius,
-        Color borderColor = Colors.transparent,
-        double borderWidth = 2,
+      Color borderColor = Colors.transparent,
+      double borderWidth = 2,
       Widget? loadingWidget,
       Widget? errorWidget}) {
     // Validate the country code
@@ -556,28 +556,31 @@ class CountryFlagsPro {
     /// Helper widget to display an error message.
     return Container(
       decoration: BoxDecoration(
-        borderRadius:  borderRadius?? BorderRadius.circular(20),
-        border: Border.all(color: borderColor,width: borderWidth,)
-      ),
+          borderRadius: borderRadius ?? BorderRadius.circular(20),
+          border: Border.all(
+            color: borderColor,
+            width: borderWidth,
+          )),
       child: ClipRRect(
-        borderRadius: borderRadius?? BorderRadius.circular(20),
+        borderRadius: borderRadius ?? BorderRadius.circular(20),
         child: SvgPicture.asset(
           flagAsset,
           width: width,
           height: height,
           fit: fit,
           placeholderBuilder: (BuildContext context) =>
-          loadingWidget ?? SizedBox(
-            width: width,
-            height: height,
-            child: Center(child: CircularProgressIndicator(color: borderColor,),),
-          ), // Loading
+              loadingWidget ??
+              SizedBox(
+                width: width,
+                height: height,
+                child: Center(
+                  child: CircularProgressIndicator(
+                    color: borderColor,
+                  ),
+                ),
+              ), // Loading
         ),
       ),
     );
-
   }
 }
-
-
-

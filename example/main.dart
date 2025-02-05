@@ -39,19 +39,18 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatelessWidget {
   var list = CountryFlagsPro.validCountryCodes;
-  static Iterable<String> mapCountryCodeName = CountryFlagsPro.countryCodeAndName.values;
+  static Iterable<String> mapCountryCodeName =
+      CountryFlagsPro.countryCodeAndName.values;
   static List<String> listName = mapCountryCodeName.toList();
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.builder(
         gridDelegate:
-        SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
         itemCount: list.length,
         itemBuilder: (context, index) {
-
           return Padding(
             padding: const EdgeInsets.all(20),
             child: Stack(
@@ -60,18 +59,13 @@ class HomePage extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.all(20),
                   child: CountryFlagsPro.getFlag(list[index], // Country code
-                      width: 100.0,
-                      // Flag width
-                      height: 400.0,
-                      // Flag height
-                      fit: BoxFit.cover,
-                      // Flag fit
-                      borderRadius: BorderRadius.circular(400),
-                      //Flag border radius
-                      borderColor: Colors.black87,
-                      //Flag border color
+                      width: 100.0, // Flag width
+                      height: 400.0, // Flag height
+                      fit: BoxFit.cover, // Flag fit
+                      borderRadius: BorderRadius.circular(400), //Flag border radius
+                      borderColor: Colors.black87, //Flag border color
                       borderWidth: 6 //Flag border width
-                  ),
+                      ),
                 ),
                 SizedBox(),
                 Text(
