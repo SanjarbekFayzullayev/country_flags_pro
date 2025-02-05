@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
 import 'package:country_flags_pro/country_flags_pro.dart';
 
 void main() {
